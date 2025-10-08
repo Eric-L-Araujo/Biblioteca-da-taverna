@@ -1,7 +1,8 @@
 ![alt text](imagens/biblioteca_da_taverna.png)
 
 # Telas do site
-<img width="1366" height="768" alt="banner biblioteca 1" src="https://github.com/user-attachments/assets/a71036e8-26a0-43de-b908-b5434874922d" />
+
+<img width="1366" height="644" alt="banner biblioteca 1" src="https://github.com/user-attachments/assets/33e7fd1c-4521-424e-b788-7286beb64f10" />
 
 <img width="1366" height="768" alt="banner biblioteca 2" src="https://github.com/user-attachments/assets/4e285b68-06a5-475a-955e-c247d492f525" />
 
