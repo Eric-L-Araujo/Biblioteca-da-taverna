@@ -1,5 +1,9 @@
 ![alt text](imagens/biblioteca_da_taverna.png)
 
+# Telas do site
+<img width="1366" height="768" alt="banner biblioteca 1" src="https://github.com/user-attachments/assets/a71036e8-26a0-43de-b908-b5434874922d" />
+![WhatsApp Image 2025-10-08 at 15 15 49](https://github.com/user-attachments/assets/e26776d9-3ebb-4416-9c33-eb0102f246ea)
+
 # Sejam bem-vindos ao meu projeto "Biblioteca da taverna"
 Um web site simples e de rápida leitura, criado por mim, para ajudar novos aventureiros à se prepararem para suas primeiras aventuras acerca dos infinitos universos do RPG de mesa. 
 
