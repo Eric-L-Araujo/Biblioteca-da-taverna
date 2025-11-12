@@ -1,18 +1,18 @@
 function salvarNomeUsuario() {
-    let user = document.getElementById("nome");
+    let user = document.getElementById("input-name");
     let userName = user.value.trim();
     
     if (userName === "") {
         alert("Ei, aventureiro(a), você precisa dizer seu nome antes de entrar! ✋");
     } else {
         alert(`${userName}? Quem se chama assim, com cerveja pode entrar aqui.`);
-        localStorage.setItem("nome", userName);
+        localStorage.setItem("input-name", userName);
         window.location.href = 'html/home.html'; // Redireciona para a página principal
     }
 }
 
 function exibirNomeUsuario() {
-    let user = localStorage.getItem("nome");
+    let user = localStorage.getItem("input-name");
     let result = document.getElementById("result");
     if (user) {
         result.innerHTML = ` ✨ ${user} ✨`;
