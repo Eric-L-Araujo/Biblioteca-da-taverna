@@ -54,17 +54,18 @@ header {
 
 }
 
-
 .links {
   font-size: 18px;
     border-radius: 9px;
-    padding: 12px 23px;
+    padding: 7px 3px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     font-weight: 500;
+    margin: 5px;
     transition: background-color 0.2s, transform 0.2s;
 }
+
 
 .links:hover {
   background-color: rgb(198, 99, 17);
@@ -72,6 +73,7 @@ header {
   /* Transição suave de 0.3 segundos para background-color e transform */
   color: aliceblue;
 }
+
 
 
 

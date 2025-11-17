@@ -17,8 +17,6 @@ section > p {
 .container {
     display: flex;
     padding: 50px;
-    
-    
     background-color: rgb(247, 232, 212);
     margin: 15px 100px;
     flex-direction: column;
@@ -28,6 +26,28 @@ section > p {
     border: solid 3px rgb(200, 101, 45);
     color: rgb(56, 32, 15);
     margin-bottom: 300px;
+}
+
+
+.main-menu {
+   display: flex;
+   display: flex;
+   align-items: center;
+   transition: background-color 0.2s, transform 0.2s;
+   border-radius: 9px;
+   padding: 0px 5px;
+   gap: 15px;
+}
+
+.icon-style {
+    
+    transition: color 0.2s, transform 0.2s;
+    color: rgb(255, 129, 26);
+}
+
+
+.links:hover .icon-style {
+    color: rgb(255, 255, 255);
 }
 
 #first-txt {
@@ -69,8 +89,8 @@ section > p {
 }
 
 
-header > nav > .selecionado {
+.selecionado{
     background-color: rgb(198, 99, 17); 
     color: white;
 }
- 
+

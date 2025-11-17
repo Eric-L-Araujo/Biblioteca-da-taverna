@@ -10,13 +10,19 @@
     <title>Biblioteca da Taverna - Na porta </title>
 </head>
 <body>
-    <main id="container">
-        <form action="#" id="form" method="post" autocomplete="on">
-            <p>Diga seu nome antes de entrar, aventureiro(a)</p>
-            <input type="text" id="input-name" name="input-name" maxlength="15">
-            <!-- Colocar uma regra zoeira de só nomes que começam com J e terminam com son poderão entrar -->
-            <button type="button" id="btn" onclick="salvarNomeUsuario()">Entrar</button>
-        </form>
+    <main>
+        <img src="imagens/guiadataverna.png" alt="" height="250px">
+        <div id="container">
+            <div class="img-container">
+        
+            </div>
+            <form action="#" id="form" method="post" autocomplete="on">
+                <p>Diga seu nome antes de entrar, aventureiro(a)</p>
+                <input type="text" id="input-name" name="input-name" maxlength="15">
+                <!-- Colocar uma regra zoeira de só nomes que começam com J e terminam com son poderão entrar -->
+                <button type="button" id="btn" onclick="salvarNomeUsuario()">Entrar</button>
+            </form>
+        </div>
     </main>
     <footer class="footer-container">
             <p id="icon-text">Site desenvolvido por:<br>
@@ -30,6 +36,8 @@
                 Todos os direitos reservados <br> &copy;
             </p>
     </footer>
+    
     <script src="js/script.js"></script>
+    
 </body>
 </html>
